@@ -1,1 +1,1 @@
-web: gunicorn store.wsgi --log-file -
+web: gunicorn mcs_markup.wsgi --log-file -
