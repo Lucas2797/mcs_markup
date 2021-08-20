@@ -31,7 +31,7 @@ function SendingData(json) {
     requestin.setRequestHeader("Content-Type", "application/json")
     requestin.setRequestHeader("X-CSRFToken", getCookie('csrftoken'))
     requestin.send(JSON.stringify(json))
-    alert("Periodo salvo em : <br> https://mcsmarkup.herokuapp.com/ipca/home/")
+    alert("Periodo salvo em : https://mcsmarkup.herokuapp.com/ipca/list/")
 }
 
 
