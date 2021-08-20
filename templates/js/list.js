@@ -54,6 +54,7 @@ function SendingDelete(arg = null) {
     requestin.open("DELETE", url)
     requestin.setRequestHeader("X-CSRFToken", getCookie('csrftoken'))
     requestin.send()
+    alert('Todos os dados deletados. Recarregue a pagina')
 }
 
 

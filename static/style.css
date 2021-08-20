@@ -31,7 +31,9 @@ body {
     text-decoration: none;
     color: white;
 }
-
+div.link{
+  background-color: white;
+}
 
 div.form {
     text-align: center;
