@@ -1,0 +1,38 @@
+#indices {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#indices td, #indices th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#indices tr:nth-child(even){background-color: #f2f2f2;}
+#indices tr:nth-child(odd){background-color: #f2f2f280;}
+
+#indices tr:hover {background-color: #ddd;}
+
+#indices th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+body {
+  background: #4B79A1;
+  background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
+  background: linear-gradient(to left, #4B79A1 , #283E51);        
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+div.form {
+    text-align: center;
+}

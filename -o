@@ -1,0 +1,6 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://api.bcb.gov.br/dados/serie/bcdata.sgs.10844/dados
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
