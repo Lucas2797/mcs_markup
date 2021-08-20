@@ -9,6 +9,4 @@ urlpatterns = [
     path('listing/', views.ListingView.as_view(), name='listing'),
     path('home_js/', (TemplateView.as_view(template_name="js/home.js", content_type='text/javascript', )), name='home_js'),
     path('list_js/', (TemplateView.as_view(template_name="js/list.js", content_type='text/javascript', )), name='list_js'),
-    path('login/', views.LoginView.as_view(), name='login'),
-    path('register/', views.RegisterView.as_view(), name='register')
 ]
